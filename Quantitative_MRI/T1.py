@@ -1,72 +1,44 @@
 import numpy as np
-from scipy.optimize import least_squares
+from scipy.optimize import least_squares as lsq
+from .models import T1_vTR
+from .models import _residuals
 
 "Class definition and methods"
 
 class T1_vtr_signal(object):
     """
-    T1 vTR signal class, with the following attributes:
-    ---------------------------------------------------
+
+    T1 vTR signal class, with the following:
+    ----------------------------------------
+    Atrributes
+    ----------
     x: float, ndarray
         Repetition time in seconds (xdata)
-    y: float, ndarray
-        observed/simulated signal
+    yraw: float, ndarray
+            original signal before being processed
     yhat: float, ndarray
-        clean/fitted signal
+            predicted signal after curve fitting
+    fitted_pars: Result of curve fitting with
     T1 = estimated T1
     Mz = estimated Mz
 
+    Functions
+    ----------
+    fit: Perform non-linear least-squares curve fitting to estimate T1 and Mz
     """
+
     def __init__(self, x=0.0, y=0.0):
         self.x = x
-        self.y = y
-        self.T1 = 0.0
-        self.Mz = 0.0
+        self.yraw= y
         self.yhat = np.zeros_like(y)
+        self.model = T1_vTR
+        self.fitted_pars = 0.0
 
-    def add_noise(self,noise):
-        self.y = _add_noise(self.y, noise)
-
-
-
-"Functions needed to simulate and fit data"
-
-def T1rec(TR, T1 = 2.5, Mz = 1.0, noise = 0.0):
-    """
-    Description
-    ----------
-    Simulate Spin Echo Saturation Recovery Experiment
-
-    sig = Mz * (1 - np.exp(-RepTime/T1))
-
-    Parameters
-    ----------
-    TR: float
-        ndarray of repetition times (TR) in seconds
-    T1: float, optional
-        T1 time in seconds (float)
-    Mz: float, optional
-        Thermal equilibrium magnetization in in AU
-    noise: float, optional
-        Standard deviation of Gaussian noise
-
-    Returns
-    ----------
-    Signal : ndarray of the signal at each TR
-
-    Examples
-    ----------
-    >>> T1rec(np.linspace(0,10,5))
-    array([ 0.        ,  0.63212056,  0.86466472,  0.95021293,  0.98168436])
-    >>> T1rec(np.linspace(0,10,5),T1=2.0)
-    array([ 0.        ,  0.7134952 ,  0.917915  ,  0.97648225,  0.99326205])
-    >>> T1rec(np.linspace(0,10,5),T1=10.0, Mz=100)
-    array([  0.        ,  22.11992169,  39.34693403,  52.76334473,  63.21205588])
-
-    """
-    signal = Mz * (1 - np.exp(-TR/T1))
-    signal = _add_noise(signal, noise)
-    return np.squeeze(signal)
+    def fit(self):
+        ydata = self.yraw / self.yraw[0]
+        x0 = np.array([1,1])
+        R = lsq(_residuals, x0, args=(self.x, self.model, ydata))
+        self.fitted_pars = return R.x
 
 def _fit(TR, Yobserved):
     """
@@ -106,29 +78,18 @@ def _fit(TR, Yobserved):
     R = least_squares(_residual_function,
                           x0,
                           bounds=(0, np.inf),
-                          args=(Yobserved, TR, T1rec))
+                          args=(Yobserved, TR, T1_sat_rec))
 
     pars_predicted = [R.x[0],R.x[1]*max_signal]
     pars_predicted = np.asarray(pars_predicted)
 
-    Ypredicted = T1rec(TR,  T1 = pars_predicted[0],
+    Ypredicted = T1_sat_rec(TR,  T1 = pars_predicted[0],
                             Mz = pars_predicted[1])
 
     return pars_predicted, Ypredicted
 
-def _residual_function(parameters, signal_observed, TR, T1Model):
-    """
-    Estimates the residuals between and observed signal and the T1 recovery model
-    """
-    signal_predicted = T1Model(TR, T1=parameters[0], Mz=parameters[1])
-    # make sure dimensionalities are correct
-    signal_predicted = np.squeeze(signal_predicted)
-    signal_observed = np.squeeze(signal_observed)
-    # calc and return residuals
-    residuals =  signal_observed - signal_predicted
-    return residuals
-
 "Utility functions"
+
 def _add_noise(signal, sigma):
     "Add random guassian noise with mean of zero and std of sigma"
     noise = np.random.normal(loc=0.0, scale=sigma, size=signal.shape)
