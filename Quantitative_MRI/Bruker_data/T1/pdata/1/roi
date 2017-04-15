@@ -1,0 +1,26 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=julio
+$$ Tue Apr 11 17:11:58 2017 MST (UT-7h)  julio
+$$ /opt/PV51/data/julio/nmr/Lemon_final_2017_11_04.GW1/2/pdata/1/roi
+##$ROI_version=( 20 )
+<Version 2.0>
+##$ROI_n=4
+##$ROI_par=( 4 )
+(RoiCircle, <Roi_1>, 4, 0, 0, -1) (RoiCircle, <Roi_2>, 4, 0, 0, -1) (
+RoiCircle, <Roi_3>, 4, 0, 0, -1) (RoiCircle, <Roi_4>, 4, 0, 0, -1)
+##$ROI_dpar=( 16 )
+0.367 0.324 0.041 0.041 0.631 0.621 0.041 0.041 1.003 0.191 0.041 0.041 0.738 
+0.191 0.015 0.015
+##$ROI_dpar_off=( 4 )
+0 4 8 12
+##$ROI_cpar_off=( 4 )
+0 0 0 0
+##$ROI_ndx=3
+##$ROI_dpar_ndx=( 4 )
+0.738 0.191 0.015 0.015
+##$ROI_cpar_ndx=( 1 )
+<>
+##END=

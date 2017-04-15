@@ -1,0 +1,197 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=julio
+$$ Tue Apr 11 16:58:49 2017 MST (UT-7h)  julio
+$$ /opt/PV51/data/julio/nmr/Lemon_final_2017_11_04.GW1/4/pdata/1/visu_pars
+##$VisuVersion=1
+##$VisuUid=( 65 )
+<2.16.756.5.5.100.4167689927.5358.1491955129.114>
+##$VisuCreator=( 65 )
+<ParaVision>
+##$VisuCreatorVersion=( 65 )
+<5.1>
+##$VisuCreationDate=( 21 )
+<16:52:52 11 Apr 2017>
+$$ @vis= VisuVersion VisuUid VisuCreator VisuCreatorVersion VisuCreationDate
+##$VisuCoreFrameCount=101
+##$VisuCoreDim=2
+##$VisuCoreSize=( 2 )
+128 128
+##$VisuCoreDimDesc=( 2 )
+spatial spatial
+$$ @vis= VisuInstance VisuCoreFrameCount VisuCoreDim VisuCoreSize
+##$VisuCoreExtent=( 2 )
+60 50
+##$VisuCoreFrameThickness=( 1 )
+1
+##$VisuCoreUnits=( 2, 65 )
+<mm> <mm>
+##$VisuCoreOrientation=( 1, 9 )
+1 0 0 0 1 0 0 0 1
+$$ @vis= VisuCoreDimDesc VisuCoreExtent VisuCoreFrameThickness VisuCoreUnits
+##$VisuCorePosition=( 1, 3 )
+-30.2 -27.2 -4.5
+##$VisuCoreDataMin=( 101 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$VisuCoreDataMax=( 101 )
+32767 28778 28852 27934 27749 28498 28110 27968 27687 28295 27855 27878 27606 
+27671 28453 28165 28463 27938 27606 27775 28167 27297 28096 27989 27553 27371 
+27120 27436 27273 27454 26961 26957 26589 26529 26480 26700 25702 26152 25368 
+25261 24863 24093 23688 22716 22332 20688 20197 18875 18872 17579 17116 16040 
+16574 17683 18399 18683 19074 20393 20585 22278 22373 22814 23052 23558 24173 
+23540 24415 24429 24513 24273 24726 24846 24745 24383 24610 24895 24620 24541 
+24379 24668 24909 25171 25438 24977 25581 26036 26013 26743 25847 26203 26294 
+26484 26695 27108 27112 27420 27359 27612 27788 28086 28869
+##$VisuCoreDataOffs=( 101 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+$$ @vis= VisuCoreOrientation VisuCorePosition VisuCoreDataMin VisuCoreDataMax
+##$VisuCoreDataSlope=( 101 )
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855 39.5330962740855 39.5330962740855 39.5330962740855 
+39.5330962740855
+##$VisuCoreFrameType=MAGNITUDE_IMAGE
+##$VisuFGElemComment=( 101, 65 )
+<VCEST= -1500.0Hz> <VCEST= -1470.0Hz> <VCEST= -1440.0Hz> <VCEST= -1410.0Hz> <
+VCEST= -1380.0Hz> <VCEST= -1350.0Hz> <VCEST= -1320.0Hz> <VCEST= -1290.0Hz> <
+VCEST= -1260.0Hz> <VCEST= -1230.0Hz> <VCEST= -1200.0Hz> <VCEST= -1170.0Hz> <
+VCEST= -1140.0Hz> <VCEST= -1110.0Hz> <VCEST= -1080.0Hz> <VCEST= -1050.0Hz> <
+VCEST= -1020.0Hz> <VCEST=  -990.0Hz> <VCEST=  -960.0Hz> <VCEST=  -930.0Hz> <
+VCEST=  -900.0Hz> <VCEST=  -870.0Hz> <VCEST=  -840.0Hz> <VCEST=  -810.0Hz> <
+VCEST=  -780.0Hz> <VCEST=  -750.0Hz> <VCEST=  -720.0Hz> <VCEST=  -690.0Hz> <
+VCEST=  -660.0Hz> <VCEST=  -630.0Hz> <VCEST=  -600.0Hz> <VCEST=  -570.0Hz> <
+VCEST=  -540.0Hz> <VCEST=  -510.0Hz> <VCEST=  -480.0Hz> <VCEST=  -450.0Hz> <
+VCEST=  -420.0Hz> <VCEST=  -390.0Hz> <VCEST=  -360.0Hz> <VCEST=  -330.0Hz> <
+VCEST=  -300.0Hz> <VCEST=  -270.0Hz> <VCEST=  -240.0Hz> <VCEST=  -210.0Hz> <
+VCEST=  -180.0Hz> <VCEST=  -150.0Hz> <VCEST=  -120.0Hz> <VCEST=   -90.0Hz> <
+VCEST=   -60.0Hz> <VCEST=   -30.0Hz> <VCEST=     0.0Hz> <VCEST=    30.0Hz> <
+VCEST=    60.0Hz> <VCEST=    90.0Hz> <VCEST=   120.0Hz> <VCEST=   150.0Hz> <
+VCEST=   180.0Hz> <VCEST=   210.0Hz> <VCEST=   240.0Hz> <VCEST=   270.0Hz> <
+VCEST=   300.0Hz> <VCEST=   330.0Hz> <VCEST=   360.0Hz> <VCEST=   390.0Hz> <
+VCEST=   420.0Hz> <VCEST=   450.0Hz> <VCEST=   480.0Hz> <VCEST=   510.0Hz> <
+VCEST=   540.0Hz> <VCEST=   570.0Hz> <VCEST=   600.0Hz> <VCEST=   630.0Hz> <
+VCEST=   660.0Hz> <VCEST=   690.0Hz> <VCEST=   720.0Hz> <VCEST=   750.0Hz> <
+VCEST=   780.0Hz> <VCEST=   810.0Hz> <VCEST=   840.0Hz> <VCEST=   870.0Hz> <
+VCEST=   900.0Hz> <VCEST=   930.0Hz> <VCEST=   960.0Hz> <VCEST=   990.0Hz> <
+VCEST=  1020.0Hz> <VCEST=  1050.0Hz> <VCEST=  1080.0Hz> <VCEST=  1110.0Hz> <
+VCEST=  1140.0Hz> <VCEST=  1170.0Hz> <VCEST=  1200.0Hz> <VCEST=  1230.0Hz> <
+VCEST=  1260.0Hz> <VCEST=  1290.0Hz> <VCEST=  1320.0Hz> <VCEST=  1350.0Hz> <
+VCEST=  1380.0Hz> <VCEST=  1410.0Hz> <VCEST=  1440.0Hz> <VCEST=  1470.0Hz> <
+VCEST=  1500.0Hz>
+$$ @vis= VisuCoreDataOffs VisuCoreDataSlope VisuCoreFrameType
+##$VisuCoreWordType=_16BIT_SGN_INT
+##$VisuCoreByteOrder=littleEndian
+$$ @vis= VisuFGElemComment VisuCore VisuCoreWordType VisuCoreByteOrder
+##$VisuFGOrderDescDim=1
+##$VisuFGOrderDesc=( 1 )
+(101, <FG_MOVIE>, <>, 0, 1)
+##$VisuGroupDepVals=( 1 )
+(<VisuFGElemComment>, 0)
+$$ @vis= VisuPixel VisuFGOrderDescDim VisuFGOrderDesc VisuGroupDepVals
+##$VisuSubjectName=( 65 )
+<Lemon_final_2017_11_04>
+##$VisuSubjectId=( 65 )
+<Lemon_final_2017_11_04>
+##$VisuSubjectBirthDate=( 9 )
+<>
+##$VisuSubjectSex=FEMALE
+$$ @vis= VisuFrameOrderDesc VisuSubjectName VisuSubjectId VisuSubjectBirthDate
+##$VisuSubjectComment=( 2048 )
+<CEST, t1, and t2 data for lemon with 1 slice>
+##$VisuStudyUid=( 65 )
+<2.16.756.5.5.100.4167689927.4403.1491951464.2835>
+##$VisuStudyDate=( 21 )
+<15:57:44 11 Apr 2017>
+$$ @vis= VisuSubjectSex VisuSubjectComment VisuSubject VisuStudyUid
+##$VisuStudyId=( 65 )
+<Lemon_final_2017_11_04>
+##$VisuStudyNumber=1
+##$VisuSubjectWeight=5
+##$VisuStudyReferringPhysician=( 65 )
+<>
+$$ @vis= VisuStudyDate VisuStudyId VisuStudyNumber VisuSubjectWeight
+##$VisuStudyDescription=( 65 )
+<CEST, t1, t2 w/ one slice on lemon>
+##$VisuSeriesNumber=262145
+$$ @vis= VisuStudyReferringPhysician VisuStudyDescription VisuStudy
+##$VisuSubjectPosition=Head_Supine
+##$VisuSeriesTypeId=( 65 )
+<ACQ_USER_PVM>
+##$VisuAcqSoftwareVersion=( 65 )
+<5.1>
+$$ @vis= VisuSeriesNumber VisuSubjectPosition VisuSeriesTypeId VisuSeries
+##$VisuInstitution=( 65 )
+<Univ. of Arizona>
+##$VisuStation=( 65 )
+<Biospec 70/20>
+##$VisuAcqDate=( 21 )
+<16:52:52 11 Apr 2017>
+$$ @vis= VisuAcqSoftwareVersion VisuInstitution VisuStation VisuEquipment
+##$VisuAcqEchoTrainLength=64
+##$VisuAcqSequenceName=( 40 )
+<cESTFISP_SSprep_gate (pvm)>
+##$VisuAcqNumberOfAverages=1
+$$ @vis= VisuAcqDate VisuAcqEchoTrainLength VisuAcqSequenceName
+##$VisuAcqImagingFrequency=300.243854389633
+##$VisuAcqImagedNucleus=( 8 )
+<1H>
+##$VisuAcqRepetitionTime=( 1 )
+5.61426650237634
+$$ @vis= VisuAcqNumberOfAverages VisuAcqImagingFrequency VisuAcqImagedNucleus
+##$VisuAcqPhaseEncSteps=64
+##$VisuAcqPixelBandwidth=390.625
+##$VisuAcqFlipAngle=30
+$$ @vis= VisuAcqRepetitionTime VisuAcqPhaseEncSteps VisuAcqPixelBandwidth
+##$VisuAcqSize=( 2 )
+128 64
+##$VisuAcqImageSizeAccellerated=Yes
+##$VisuAcqImagePhaseEncDir=( 101 )
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir col_dir 
+col_dir col_dir
+$$ @vis= VisuAcqFlipAngle VisuAcqSize VisuAcqImageSizeAccellerated
+##$VisuAcqEchoTime=( 1 )
+2.80713325118817
+##$VisuAcquisitionProtocol=( 65 )
+<CEST_cool(modified)>
+##$VisuAcqScanTime=50500
+$$ @vis= VisuAcqImagePhaseEncDir VisuAcqEchoTime VisuAcquisitionProtocol
+$$ @vis= VisuAcqScanTime VisuAcquisition Visu
+##END=
